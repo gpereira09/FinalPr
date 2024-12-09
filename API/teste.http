@@ -1,0 +1,16 @@
+//GET http://localhost:5033
+
+
+//GET http://localhost:5033/api/tarefas/listar
+
+//GET http://localhost:5033/api/tarefas/buscar/10
+
+//GET http://localhost:5033/api/tarefas/deletar/17
+
+PUT http://localhost:5033/api/tarefas/alterar/20
+Content-Type: application/json
+
+{
+    "TarefaName": "Estudar"
+}
+
